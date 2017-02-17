@@ -1,3 +1,9 @@
+/**
+ @name compress
+ @param {string} str
+ @return {string} str
+ @desc Receives string as an input and shortens the string by reducing consecutive character repetitions		
+**/
 function compress(str) {
   var currentCounter = 0;
   var finalString = str[0];
